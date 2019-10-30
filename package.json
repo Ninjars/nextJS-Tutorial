@@ -6,16 +6,27 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninjars/nextJS-Tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ninjars/nextJS-Tutorial/issues"
+  },
+  "homepage": "https://github.com/Ninjars/nextJS-Tutorial#readme",
   "dependencies": {
-    "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.1.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.3",
+    "@types/react": "^16.9.11",
+    "typescript": "^3.6.4"
   }
 }
